@@ -1,0 +1,24 @@
+{
+  "brandName": "PLTU Keramasan",
+  "title": "Perusahaan Listrik Negara",
+  "company": {
+    "name": "PLTU Keramasan",
+    "url": "",
+    "socialLink": {
+      "linkedin": "",
+      "instagram": "",
+      "facebook": "",
+      "youtube": "",
+      "github": "",
+      "dribble": "",
+      "discord": "",
+      "support": ""
+    }
+  },
+  "logo": {
+    "main": "/assets/images/logo/logopln.png",
+    "logoIcon": "/assets/images/logo/iconpln.png",
+    "logoFab": "/assets/images/logo/iconpln.png",
+    "logoWatermark": "/assets/images/logo/iconpln.png"
+  }
+}
