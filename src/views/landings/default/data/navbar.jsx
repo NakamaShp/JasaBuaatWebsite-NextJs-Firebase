@@ -13,8 +13,7 @@ export const navbar = {
     ...linkProps,
     sx: { minWidth: 40, width: 40, height: 40, p: 0 }
   },
-  secondaryBtn: { children: 'Sign-In', href: PRIVIEW_PATH.auth.login.login1 },
-  primaryBtn: { children: 'Sign-Up', href: PRIVIEW_PATH.auth.register },
+  primaryBtn: { children: 'Mulai Sekarang', href: PAGE_PATH.contactUs },
   navItems: [
     { id: 'home', title: 'Home', link: '/' },
     { id: 'about', title: 'About Us', link: PAGE_PATH.about },

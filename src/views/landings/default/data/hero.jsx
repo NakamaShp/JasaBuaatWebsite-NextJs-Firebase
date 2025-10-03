@@ -9,12 +9,12 @@ export const hero = {
     label: (
       <>
         <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-          One App
+          Website Lengkap
         </Typography>
         <Chip
           label={
-            <Typography variant="caption" sx={{ color: 'primary.main' }}>
-              All Information
+            <Typography variant="caption" sx={{ color: 'primary.dark' }}>
+              Informasi Jelas
             </Typography>
           }
           sx={{ height: 24, bgcolor: 'primary.lighter', mr: -1, ml: 0.75, '& .MuiChip-label': { px: 1.25 } }}
@@ -31,11 +31,11 @@ export const hero = {
       </>
     )
   },
-  headLine: 'Jasa Pemmbuatan Website Mulai dari Company Profile Hingga Custom Website ',
-  captionLine: 'Website modern, cepat online, dan SEO-ready untuk mendukung pertumbuhan bisnis Anda',
+  headLine: 'Website Profesional untuk UMKM, Mudah & Terjangkau',
+  captionLine: 'Mulai dari toko kecil hingga usaha berkembang, website Anda siap membantu jualan lebih luas dan mudah ditemukan di Google',
   primaryBtn: { children: 'Konsultasi Sekarang', href: SECTION_PATH },
-  videoSrc: 'https://d2elhhoq00m1pj.cloudfront.net/saasable-intro.mp4',
-  videoThumbnail: '/assets/videos/thumbnails/intro-thumbnail.png',
+  videoSrc: '',
+  videoThumbnail: '/assets/videos/thumbnails/dummy-thumbnail.jpeg',
   listData: [
     { image: '/assets/images/shared/react.svg', title: 'React 19' },
     { image: '/assets/images/shared/next-js.svg', title: 'Next.js' },
