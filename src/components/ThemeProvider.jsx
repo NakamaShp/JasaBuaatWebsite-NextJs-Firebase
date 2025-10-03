@@ -21,7 +21,7 @@ export default function ThemeProvider({ children }) {
     <Suspense fallback={<Loader />}>
       {(() => {
         switch (currentTheme) {
-          case Themes.THEME_AI:
+          case Themes.THEME_DEFAULT:
           default:
             return <ThemeAI>{children}</ThemeAI>; // Or a default theme/component if needed
         }
