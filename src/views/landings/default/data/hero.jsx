@@ -31,9 +31,9 @@ export const hero = {
       </>
     )
   },
-  headLine: 'Energi Bersih dan Berkelanjutan untuk masa depan Indonesia ',
-  captionLine: 'solusi energi yang andal, efisien, dan ramah lingkungan untuk memenuhi kebutuhan listrik Anda.',
-  primaryBtn: { children: 'LEARN MORE', href: SECTION_PATH },
+  headLine: 'Jasa Pemmbuatan Website Mulai dari Company Profile Hingga Custom Website ',
+  captionLine: 'Website modern, cepat online, dan SEO-ready untuk mendukung pertumbuhan bisnis Anda',
+  primaryBtn: { children: 'Konsultasi Sekarang', href: SECTION_PATH },
   videoSrc: 'https://d2elhhoq00m1pj.cloudfront.net/saasable-intro.mp4',
   videoThumbnail: '/assets/videos/thumbnails/intro-thumbnail.png',
   listData: [

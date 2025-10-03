@@ -13,7 +13,6 @@ import ContainerWrapper from '@/components/ContainerWrapper';
 import Logo from '@/components/logo';
 import { MenuPopper, NavMenu, NavMenuDrawer, NavPrimaryButton, NavSecondaryButton } from '@/components/navbar';
 import SvgIcon from '@/components/SvgIcon';
-
 /***************************  NAVBAR - CONTENT 10  ***************************/
 
 export default function NavbarContent10({ landingBaseUrl, navItems, primaryBtn, secondaryBtn }) {
@@ -53,8 +52,10 @@ export default function NavbarContent10({ landingBaseUrl, navItems, primaryBtn, 
                 {navItems && (
                   <Box sx={{ mx: -2 }}>
                     <NavMenuDrawer {...{ navItems }} />
+                    
                   </Box>
                 )}
+
                 {downSM && (
                   <Stack direction="row" sx={{ justifyContent: 'space-between', gap: 1, px: 5, py: 2.5, mx: -5, bgcolor: 'grey.100' }}>
                     <NavSecondaryButton {...secondaryBtn} />

@@ -22,7 +22,7 @@ export const mainMetadata = {
   description,
   applicationName: title,
   keywords: [
-    'SaaS',
+    'Artnesia',
     `${branding.brandName}`,
     'Software as a Service',
     'Cloud-based software',

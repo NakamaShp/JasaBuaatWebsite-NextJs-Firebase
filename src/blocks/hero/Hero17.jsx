@@ -31,7 +31,7 @@ const options = { root: null, rootMargin: '0px', threshold: 0.6 };
 
 /***************************  HERO - 17  ***************************/
 
-export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoSrc, videoThumbnail, listData }) {
+export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoSrc, videoThumbnail}) {
   const theme = useTheme();
   const boxRadius = { xs: 24, sm: 32, md: 40 };
 
@@ -203,7 +203,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
                   ease: [0.215, 0.61, 0.355, 1]
                 }}
               >
-                <Stack direction="row" sx={{ gap: 1, flexWrap: 'wrap', justifyContent: 'center' }}>
+                {/* <Stack direction="row" sx={{ gap: 1, flexWrap: 'wrap', justifyContent: 'center' }}>
                   {listData.map((item, index) => (
                     <Chip
                       key={index}
@@ -213,7 +213,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
                       sx={{ height: 32, px: 1, bgcolor: 'grey.100', '& .MuiChip-label': { py: 0.75, px: 1 } }}
                     />
                   ))}
-                </Stack>
+                </Stack> */}
               </motion.div>
             </Stack>
           </Box>

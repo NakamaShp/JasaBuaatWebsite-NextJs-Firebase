@@ -21,62 +21,7 @@ let breadcrumbs = [
 
 /***************************  CONTACT US - DATA  ***************************/
 
-const sectionsData = [
-  {
-    typeset: {
-      heading: 'Default contact us section 04',
-      caption:
-        'Use this default example with an announcement badge, heading, CTA buttons, and customer logos to showcase what your website offers.',
-      figmaLink: FIGMA_LINK.contactUs.variant.contactUs4
-    },
-    src: PRIVIEW_PATH.contactUs.contactUs4
-  },
-  {
-    typeset: {
-      heading: 'Default contact us section 01',
-      caption:
-        'Use this default example with an announcement badge, heading, CTA buttons, and customer logos to showcase what your website offers.',
-      figmaLink: FIGMA_LINK.contactUs.variant.contactUs1
-    },
-    src: PRIVIEW_PATH.proPage
-  },
-  {
-    typeset: {
-      heading: 'Default contact us section 02',
-      caption:
-        'Use this default example with an announcement badge, heading, CTA buttons, and customer logos to showcase what your website offers.',
-      figmaLink: FIGMA_LINK.contactUs.variant.contactUs2
-    },
-    src: PRIVIEW_PATH.proPage
-  },
-  {
-    typeset: {
-      heading: 'Default contact us section 03',
-      caption:
-        'Use this default example with an announcement badge, heading, CTA buttons, and customer logos to showcase what your website offers.',
-      figmaLink: FIGMA_LINK.contactUs.variant.contactUs3
-    },
-    src: PRIVIEW_PATH.proPage
-  },
-  {
-    typeset: {
-      heading: 'Default contact us section 05',
-      caption:
-        'Use this default example with an announcement badge, heading, CTA buttons, and customer logos to showcase what your website offers.',
-      figmaLink: FIGMA_LINK.contactUs.variant.contactUs5
-    },
-    src: PRIVIEW_PATH.proPage
-  },
-  {
-    typeset: {
-      heading: 'Default contact us section 06',
-      caption:
-        'Use this default example with an announcement badge, heading, CTA buttons, and customer logos to showcase what your website offers.',
-      figmaLink: FIGMA_LINK.contactUs.variant.contactUs6
-    },
-    src: PRIVIEW_PATH.proPage
-  }
-];
+
 
 /***************************  SECTIONS - CONTACT US  ***************************/
 
