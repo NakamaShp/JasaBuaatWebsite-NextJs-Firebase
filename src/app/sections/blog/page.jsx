@@ -3,6 +3,7 @@ import dynamic from 'next/dynamic';
 // @project
 import { PAGE_PATH } from '@/path';
 import { SEO_CONTENT } from '@/metadata';
+import { Footer7 } from '@/blocks/footer';
 
 const Blog = dynamic(() => import('@/views/sections/Blog'));
 
@@ -13,5 +14,10 @@ export const metadata = { ...SEO_CONTENT.blog, openGraph: { ...SEO_CONTENT.blog,
 /***************************  PAGE - BLOG  ***************************/
 
 export default function BlogPage() {
-  return <Blog />;
+  return (
+    <>
+      <Blog />
+      <Footer7 />
+    </>
+  );
 }

@@ -45,6 +45,8 @@ export const PAGE_PATH = {
   process: path([SECTION_PATH, 'process']),
   privacyPolicy: path([SECTION_PATH, 'privacy-policy']),
   proPage: path([SECTION_PATH, 'pro-page']),
+  portfolio: path([SECTION_PATH, 'portfolio']),
+  service: path([SECTION_PATH, 'service']),
   smallHero: path([SECTION_PATH, 'small-hero']),
   team: path([SECTION_PATH, 'team']),
   testimonial: path([SECTION_PATH, 'testimonial']),
@@ -61,7 +63,7 @@ export const PAGE_PATH = {
   pricingPage: '/pricing',
   privacyPolicyPage: '/privacy-policy',
   termsConditionPage: '/terms-condition',
-  facilityPage: '/facility',
+  facilityPage: '/facility'
 };
 
 export const PRIVIEW_PATH = {

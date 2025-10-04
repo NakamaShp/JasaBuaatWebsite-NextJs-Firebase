@@ -1,7 +1,7 @@
 // @project
 import branding from '@/branding.json';
 import { IconType } from '@/enum';
-import { SECTION_PATH, BUY_NOW_URL, ADMIN_PATH, DOCS_URL } from '@/path';
+import { SECTION_PATH, BUY_NOW_URL, ADMIN_PATH, DOCS_URL, PRIVIEW_PATH } from '@/path';
 
 const linkProps = { target: '_blank', rel: 'noopener noreferrer' };
 
@@ -72,40 +72,40 @@ export const feature5 = {
 };
 
 export const feature20 = {
-  heading: 'Comprehensive UI Kit Tailored to your Need',
-  caption: 'Ready to transform your SaaS designs with one powerful UI Kit?',
-  actionBtn: { children: 'Boo', href: BUY_NOW_URL, ...linkProps },
-  secondaryBtn: { children: 'Explore Blocks', href: SECTION_PATH },
+  heading: 'Solusi Website Profesional untuk UMKM Indonesia',
+  caption: 'Siap bawa bisnismu naik level dengan website profesional?',
+  actionBtn: { children: 'Konsultasi Gratis', href: SECTION_PATH },
+  secondaryBtn: { children: 'Lihat Paket Website', href: '#pricing' },
   features: [
     {
-      icon: 'tabler-accessible',
-      title: 'WCAG Compliant',
-      content: 'Ensure accessibility with WCAG compliant design for browsing.'
+      icon: 'tabler-brush',
+      title: 'Desain Modern & Responsif',
+      content: 'Website tampil keren dan menyesuaikan otomatis di semua perangkat — dari HP hingga laptop.'
     },
     {
       icon: 'tabler-brand-google',
-      title: 'SEO Friendly',
-      content: 'Boost visibility with SEO-friendly features for better search rankings.'
+      title: 'Optimasi SEO Lokal',
+      content: 'Bantu bisnismu mudah ditemukan di Google, terutama oleh calon pelanggan di sekitar lokasi usahamu.'
     },
     {
-      icon: 'tabler-stack-2',
-      title: 'MUI Components',
-      content: 'Customize Material 3 design MUI components for enhanced aesthetics.'
+      icon: 'tabler-discount',
+      title: 'Harga Terjangkau',
+      content: 'Paket fleksibel sesuai kebutuhan dan budget UMKM, tanpa biaya tersembunyi.'
     },
     {
       icon: 'tabler-rocket',
-      title: 'High Performance UI',
-      content: 'Adjust content layout for visual coherence on various screen sizes.'
+      title: 'Proses Cepat & Mudah',
+      content: 'Cukup kirim data dan kami bantu dari desain, hosting, hingga website siap online.'
     },
     {
       icon: 'tabler-help',
-      title: 'Detailed Documentation',
-      content: 'Access comprehensive documentation for easy guidance on platform usage.'
+      title: 'Gratis Konsultasi Branding',
+      content: 'Dapatkan saran gratis untuk memperkuat tampilan dan pesan bisnismu di dunia digital.'
     },
     {
       icon: 'tabler-refresh',
-      title: 'Regular Updates',
-      content: 'Receive consistent updates to keep the platform secure and up-to-date with the latest features.'
+      title: 'Maintenance & Update Berkala',
+      content: 'Kami bantu perawatan dan pembaruan agar website selalu aman, cepat, dan up-to-date.'
     }
   ]
 };

@@ -36,6 +36,8 @@ export const hero = {
   primaryBtn: { children: 'Konsultasi Sekarang', href: SECTION_PATH },
   videoSrc: '',
   videoThumbnail: '/assets/videos/thumbnails/dummy-thumbnail.jpeg',
+  
+  // Tech stack
   listData: [
     { image: '/assets/images/shared/react.svg', title: 'React 19' },
     { image: '/assets/images/shared/next-js.svg', title: 'Next.js' },

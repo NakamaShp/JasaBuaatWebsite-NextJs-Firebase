@@ -16,7 +16,7 @@ import SvgIcon from '@/components/SvgIcon';
 import { PAGE_PATH } from '@/path';
 
 /***************************  SERVICE - HERO  ***************************/
-const breadcrumbs = [{ title: 'Home', to: process.env.NEXT_PUBLIC_BASE_NAME || '/' }, { title: 'Tentang Kami' }];
+const breadcrumbs = [{ title: 'Home', to: process.env.NEXT_PUBLIC_BASE_NAME || '/' }, { title: 'Portfolio' }];
 
 /***************************  SERVICE - DATA  ***************************/
 const services = [
@@ -51,7 +51,7 @@ export default function Service() {
     <>
       {/* HERO SECTION */}
       <SectionHero
-        heading={` Tentang ${branding.brandName}`}
+        heading={`Portfolio ${branding.brandName}`}
         caption="Solusi digital untuk bantu bisnis Anda tampil profesional dan terpercaya di dunia online."
         breadcrumbs={breadcrumbs}
       />
