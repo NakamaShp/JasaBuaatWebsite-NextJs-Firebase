@@ -75,12 +75,7 @@ export default function Other1({ heading, description, primaryBtn, sections }) {
                       ...(isFocusWithin && { '&:focus-within': generateFocusVisibleStyles(theme.palette.primary.main) })
                     }}
                   >
-                    <Link
-                      href={item.link}
-                      component={NextLink}
-                      aria-label={item.title}
-                      sx={{ position: 'absolute', top: 0, height: 1, width: 1, borderRadius: { xs: 6, sm: 8, md: 10 }, zIndex: 1 }}
-                    />
+                   
                     <Background />
                     <Box sx={{ position: 'absolute', top: 0, width: 1, height: 1, textAlign: 'center' }}>
                       <CardMedia

@@ -193,17 +193,7 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
                   />
                 </ButtonAnimationWrapper>
               </motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{
-                  duration: 1,
-                  delay: 0.5,
-                  ease: [0.215, 0.61, 0.355, 1]
-                }}
-              >
-                {/* <Stack direction="row" sx={{ gap: 1, flexWrap: 'wrap', justifyContent: 'center' }}>
+              {/* <Stack direction="row" sx={{ gap: 1, flexWrap: 'wrap', justifyContent: 'center' }}>
                   {listData.map((item, index) => (
                     <Chip
                       key={index}
@@ -214,7 +204,6 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
                     />
                   ))}
                 </Stack> */}
-              </motion.div>
             </Stack>
           </Box>
           <motion.div
@@ -228,15 +217,10 @@ export default function Hero17({ chip, headLine, captionLine, primaryBtn, videoS
           >
             <GraphicsCard sx={{ border: '5px solid', borderColor: 'grey.300' }}>
               <video
-                playsInline
-                ref={videoRef}
                 width="100%"
                 height="100%"
                 style={{ display: 'flex', objectFit: 'cover' }}
                 preload="metadata"
-                autoPlay={false}
-                loop={true}
-                muted={true}
                 poster={videoThumbnail}
               ></video>
             </GraphicsCard>

@@ -54,16 +54,7 @@ function ExpanedList({ item, menuTextColor }) {
           <SvgIcon name="tabler-chevron-down" size={16} color={menuTextColor || 'text.primary'} stroke={2.5} />
         </Box>
       </ListItemButton>
-      <Collapse in={open}>
-        <Box sx={{ mb: 0.5 }}>
-          {item.megaMenu && item.megaMenu.type === MegaMenuType.MEGAMENU4 && (
-            <MegaMenu4 {...{ ...{ ...item.megaMenu, footerData: item.megaMenu.footerData }, footerSX: { px: 5, ml: -2.5, mr: -5 } }} />
-          )}
-          {item.megaMenu && item.megaMenu.type === MegaMenuType.MEGAMENU5 && (
-            <MegaMenu5 {...{ ...{ ...item.megaMenu, bannerData: item.megaMenu.bannerData }, footerSX: { px: 5, ml: -2.5, mr: -5 } }} />
-          )}
-        </Box>
-      </Collapse>
+     
     </>
   );
 }

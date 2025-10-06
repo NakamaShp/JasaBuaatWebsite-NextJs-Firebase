@@ -33,10 +33,9 @@ export const hero = {
   },
   headLine: 'Website Profesional untuk UMKM, Mudah & Terjangkau',
   captionLine: 'Mulai dari toko kecil hingga usaha berkembang, website Anda siap membantu jualan lebih luas dan mudah ditemukan di Google',
-  primaryBtn: { children: 'Konsultasi Sekarang', href: SECTION_PATH },
-  videoSrc: '',
+  primaryBtn: { children: 'Konsultasi Sekarang', link: SECTION_PATH.contact },
   videoThumbnail: '/assets/videos/thumbnails/dummy-thumbnail.jpeg',
-  
+
   // Tech stack
   listData: [
     { image: '/assets/images/shared/react.svg', title: 'React 19' },

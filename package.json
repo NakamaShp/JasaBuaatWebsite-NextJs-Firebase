@@ -1,10 +1,10 @@
 {
-  "name": "saasable-ui-free",
+  "name": "Artnesia-Web",
   "version": "1.2.0",
   "private": false,
   "author": {
-    "email": "phoenixcoded@gmail.com",
-    "name": "phoenixcoded"
+    "email": "khlfaalhsn5@gmail.com",
+    "name": "Khalifaalhasan"
   },
   "scripts": {
     "dev": "next dev --turbopack",
